@@ -1,0 +1,297 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.6:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [17/Sep/2023 21:26:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [17/Sep/2023 21:26:58] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [17/Sep/2023 21:26:58] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:root:module 'requests' has no attribute 'form'
+INFO:werkzeug:172.18.0.2 - - [17/Sep/2023 21:27:08] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.4:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 08:07:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 08:07:50] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 08:07:50] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 08:07:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:name 'custComment' is not defined
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 08:08:04] "POST /review HTTP/1.1" 200 -
+INFO:root:name 'custComment' is not defined
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 08:08:05] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.4:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 08:16:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 08:16:42] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 08:16:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name 'custComment' is not defined
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 08:16:50] "POST /review HTTP/1.1" 200 -
+INFO:root:name 'custComment' is not defined
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 08:16:51] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.4:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 08:31:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 08:31:55] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 08:31:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'realme11', 'Name': 'Flipkart Customer', 'Rating': '4', 'CommentHead': 'Really Nice', 'Comment': '4'}, {'Product': 'realme11', 'Name': 'Dipak Pandey', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': '5'}, {'Product': 'realme11', 'Name': 'Manuranjan Deori', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': '5'}, {'Product': 'realme11', 'Name': 'Shibangi Dutta', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': '5'}, {'Product': 'realme11', 'Name': 'Amit  Singh', 'Rating': '5', 'CommentHead': 'Awesome', 'Comment': '5'}, {'Product': 'realme11', 'Name': 'Om prakash Siddh', 'Rating': '5', 'CommentHead': 'Worth every penny', 'Comment': '5'}, {'Product': 'realme11', 'Name': 'Flipkart Customer', 'Rating': '2', 'CommentHead': 'Expected a better product', 'Comment': '2'}, {'Product': 'realme11', 'Name': 'Manish  Thakur', 'Rating': '4', 'CommentHead': 'Pretty good', 'Comment': '4'}, {'Product': 'realme11', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Awesome', 'Comment': '5'}, {'Product': 'realme11', 'Name': 'Anbazhagan C', 'Rating': '4', 'CommentHead': 'Nice product', 'Comment': '4'}, {'Product': 'realme11', 'Name': 'No items', 'Rating': 'No raging', 'CommentHead': 'No Comment Heading', 'Comment': '4'}]
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 08:32:14] "POST /review HTTP/1.1" 200 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'realme11', 'Name': 'Flipkart Customer', 'Rating': '4', 'CommentHead': 'Really Nice', 'Comment': '4'}, {'Product': 'realme11', 'Name': 'Dipak Pandey', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': '5'}, {'Product': 'realme11', 'Name': 'Manuranjan Deori', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': '5'}, {'Product': 'realme11', 'Name': 'Shibangi Dutta', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': '5'}, {'Product': 'realme11', 'Name': 'Amit  Singh', 'Rating': '5', 'CommentHead': 'Awesome', 'Comment': '5'}, {'Product': 'realme11', 'Name': 'Om prakash Siddh', 'Rating': '5', 'CommentHead': 'Worth every penny', 'Comment': '5'}, {'Product': 'realme11', 'Name': 'Flipkart Customer', 'Rating': '2', 'CommentHead': 'Expected a better product', 'Comment': '2'}, {'Product': 'realme11', 'Name': 'Manish  Thakur', 'Rating': '4', 'CommentHead': 'Pretty good', 'Comment': '4'}, {'Product': 'realme11', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Awesome', 'Comment': '5'}, {'Product': 'realme11', 'Name': 'Anbazhagan C', 'Rating': '4', 'CommentHead': 'Nice product', 'Comment': '4'}, {'Product': 'realme11', 'Name': 'No items', 'Rating': 'No raging', 'CommentHead': 'No Comment Heading', 'Comment': '4'}]
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 08:32:16] "POST /review HTTP/1.1" 200 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'realme11', 'Name': 'Flipkart Customer', 'Rating': '4', 'CommentHead': 'Really Nice', 'Comment': '4'}, {'Product': 'realme11', 'Name': 'Dipak Pandey', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': '5'}, {'Product': 'realme11', 'Name': 'Manuranjan Deori', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': '5'}, {'Product': 'realme11', 'Name': 'Shibangi Dutta', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': '5'}, {'Product': 'realme11', 'Name': 'Amit  Singh', 'Rating': '5', 'CommentHead': 'Awesome', 'Comment': '5'}, {'Product': 'realme11', 'Name': 'Om prakash Siddh', 'Rating': '5', 'CommentHead': 'Worth every penny', 'Comment': '5'}, {'Product': 'realme11', 'Name': 'Flipkart Customer', 'Rating': '2', 'CommentHead': 'Expected a better product', 'Comment': '2'}, {'Product': 'realme11', 'Name': 'Manish  Thakur', 'Rating': '4', 'CommentHead': 'Pretty good', 'Comment': '4'}, {'Product': 'realme11', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Awesome', 'Comment': '5'}, {'Product': 'realme11', 'Name': 'Anbazhagan C', 'Rating': '4', 'CommentHead': 'Nice product', 'Comment': '4'}, {'Product': 'realme11', 'Name': 'No items', 'Rating': 'No raging', 'CommentHead': 'No Comment Heading', 'Comment': '4'}]
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 08:32:16] "POST /review HTTP/1.1" 200 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'realme11', 'Name': 'Flipkart Customer', 'Rating': '4', 'CommentHead': 'Really Nice', 'Comment': '4'}, {'Product': 'realme11', 'Name': 'Dipak Pandey', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': '5'}, {'Product': 'realme11', 'Name': 'Manuranjan Deori', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': '5'}, {'Product': 'realme11', 'Name': 'Shibangi Dutta', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': '5'}, {'Product': 'realme11', 'Name': 'Amit  Singh', 'Rating': '5', 'CommentHead': 'Awesome', 'Comment': '5'}, {'Product': 'realme11', 'Name': 'Om prakash Siddh', 'Rating': '5', 'CommentHead': 'Worth every penny', 'Comment': '5'}, {'Product': 'realme11', 'Name': 'Flipkart Customer', 'Rating': '2', 'CommentHead': 'Expected a better product', 'Comment': '2'}, {'Product': 'realme11', 'Name': 'Manish  Thakur', 'Rating': '4', 'CommentHead': 'Pretty good', 'Comment': '4'}, {'Product': 'realme11', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Awesome', 'Comment': '5'}, {'Product': 'realme11', 'Name': 'Anbazhagan C', 'Rating': '4', 'CommentHead': 'Nice product', 'Comment': '4'}, {'Product': 'realme11', 'Name': 'No items', 'Rating': 'No raging', 'CommentHead': 'No Comment Heading', 'Comment': '4'}]
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 08:32:17] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 08:32:17] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 08:32:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.4:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.4:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 08:44:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 08:44:32] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 08:44:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'iphone11', 'Name': 'Parker Chetan', 'Rating': '5', 'CommentHead': 'iPhone 11 is a good phone. Not a very big difference between 12 except for the OLED screen and a very minor camera improvement which is you cant make a difference. If you are planning for a iPhone and you have budget you definitely can go for this without second thoughts. Now some people are complaining and giving review 0 or so because there is no charger and headphones, but thats been already mentioned so I assume they are illiterate. Its not that Flipkart is removing them duh. Anyways bee...READ MORE', 'Comment': '5'}, {'Product': 'iphone11', 'Name': 'Steevan Rattra ', 'Rating': '5', 'CommentHead': 'Good CameraREAD MORE', 'Comment': '5'}, {'Product': 'iphone11', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'This is amazing at allREAD MORE', 'Comment': '5'}, {'Product': 'iphone11', 'Name': 'Abhishek Sachdeva', 'Rating': '5', 'CommentHead': 'Feeling awesome after getting the delivery of my phone. Dual speakers makes the sound quality very loud. Amazing!!READ MORE', 'Comment': '5'}, {'Product': 'iphone11', 'Name': 'Vishnu Ramakrishnan', 'Rating': '5', 'CommentHead': 'Camera is awesomeBest battery backupA performer 👌🏻It will be a real value for money if they provide charger and earphone inbox!READ MORE', 'Comment': '5'}, {'Product': 'iphone11', 'Name': 'Manish  Deshlahare', 'Rating': '5', 'CommentHead': 'Very very goodREAD MORE', 'Comment': '5'}, {'Product': 'iphone11', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Go for iPhone 11 , if confused between iPhone 11 or iPhone 12 mini.Battery Life is enhanced , it worked for complete 2 days without charging it. Explored new features of taking screenshot by clicking on apple logo by Haptic Touch , Portrait mode with stage effect enhanced & slow motion selfie.READ MORE', 'Comment': '5'}, {'Product': 'iphone11', 'Name': 'Vikram rapolu', 'Rating': '5', 'CommentHead': 'Perfect Product!!READ MORE', 'Comment': '5'}, {'Product': 'iphone11', 'Name': 'siva sankar', 'Rating': '5', 'CommentHead': 'Photos superREAD MORE', 'Comment': '5'}, {'Product': 'iphone11', 'Name': 'vikash  Yadav', 'Rating': '5', 'CommentHead': 'It’s really awesomeREAD MORE', 'Comment': '5'}, {'Product': 'iphone11', 'Name': 'No items', 'Rating': 'No raging', 'CommentHead': 'No Comment Heading', 'Comment': '5'}]
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 08:44:40] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 08:44:40] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 08:44:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.8:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 14:14:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 14:14:45] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 14:14:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 14:14:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'iphone11', 'Name': 'Parker Chetan', 'Rating': '5', 'CommentHead': '5', 'Comment': '5'}, {'Product': 'iphone11', 'Name': 'Steevan Rattra ', 'Rating': '5', 'CommentHead': '5', 'Comment': '5'}, {'Product': 'iphone11', 'Name': 'Vishnu Ramakrishnan', 'Rating': '5', 'CommentHead': '5', 'Comment': '5'}, {'Product': 'iphone11', 'Name': 'Abhishek Sachdeva', 'Rating': '5', 'CommentHead': '5', 'Comment': '5'}, {'Product': 'iphone11', 'Name': 'Manish  Deshlahare', 'Rating': '5', 'CommentHead': '5', 'Comment': '5'}, {'Product': 'iphone11', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': '5', 'Comment': '5'}, {'Product': 'iphone11', 'Name': 'Vikram rapolu', 'Rating': '5', 'CommentHead': '5', 'Comment': '5'}, {'Product': 'iphone11', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': '5', 'Comment': '5'}, {'Product': 'iphone11', 'Name': 'siva sankar', 'Rating': '5', 'CommentHead': '5', 'Comment': '5'}, {'Product': 'iphone11', 'Name': 'Sakshi Bharti', 'Rating': '5', 'CommentHead': '5', 'Comment': '5'}, {'Product': 'iphone11', 'Name': 'No items', 'Rating': 'No raging', 'CommentHead': 'No Comment Heading', 'Comment': '5'}]
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 14:14:58] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 14:14:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 14:14:58] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.8:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 14:18:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 14:18:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 14:18:07] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:rating
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'iphone11', 'Name': 'Parker Chetan', 'Rating': '5', 'CommentHead': 'iPhone 11 is a good phone. Not a very big difference between 12 except for the OLED screen and a very minor camera improvement which is you cant make a difference. If you are planning for a iPhone and you have budget you definitely can go for this without second thoughts. Now some people are complaining and giving review 0 or so because there is no charger and headphones, but thats been already mentioned so I assume they are illiterate. Its not that Flipkart is removing them duh. Anyways bee...READ MORE', 'Comment': '5'}, {'Product': 'iphone11', 'Name': 'Steevan Rattra ', 'Rating': '5', 'CommentHead': 'iPhone 11 is a good phone. Not a very big difference between 12 except for the OLED screen and a very minor camera improvement which is you cant make a difference. If you are planning for a iPhone and you have budget you definitely can go for this without second thoughts. Now some people are complaining and giving review 0 or so because there is no charger and headphones, but thats been already mentioned so I assume they are illiterate. Its not that Flipkart is removing them duh. Anyways bee...READ MORE', 'Comment': '5'}, {'Product': 'iphone11', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'iPhone 11 is a good phone. Not a very big difference between 12 except for the OLED screen and a very minor camera improvement which is you cant make a difference. If you are planning for a iPhone and you have budget you definitely can go for this without second thoughts. Now some people are complaining and giving review 0 or so because there is no charger and headphones, but thats been already mentioned so I assume they are illiterate. Its not that Flipkart is removing them duh. Anyways bee...READ MORE', 'Comment': '5'}, {'Product': 'iphone11', 'Name': 'Abhishek Sachdeva', 'Rating': '5', 'CommentHead': 'iPhone 11 is a good phone. Not a very big difference between 12 except for the OLED screen and a very minor camera improvement which is you cant make a difference. If you are planning for a iPhone and you have budget you definitely can go for this without second thoughts. Now some people are complaining and giving review 0 or so because there is no charger and headphones, but thats been already mentioned so I assume they are illiterate. Its not that Flipkart is removing them duh. Anyways bee...READ MORE', 'Comment': '5'}, {'Product': 'iphone11', 'Name': 'Vishnu Ramakrishnan', 'Rating': '5', 'CommentHead': 'iPhone 11 is a good phone. Not a very big difference between 12 except for the OLED screen and a very minor camera improvement which is you cant make a difference. If you are planning for a iPhone and you have budget you definitely can go for this without second thoughts. Now some people are complaining and giving review 0 or so because there is no charger and headphones, but thats been already mentioned so I assume they are illiterate. Its not that Flipkart is removing them duh. Anyways bee...READ MORE', 'Comment': '5'}, {'Product': 'iphone11', 'Name': 'Manish  Deshlahare', 'Rating': '5', 'CommentHead': 'iPhone 11 is a good phone. Not a very big difference between 12 except for the OLED screen and a very minor camera improvement which is you cant make a difference. If you are planning for a iPhone and you have budget you definitely can go for this without second thoughts. Now some people are complaining and giving review 0 or so because there is no charger and headphones, but thats been already mentioned so I assume they are illiterate. Its not that Flipkart is removing them duh. Anyways bee...READ MORE', 'Comment': '5'}, {'Product': 'iphone11', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'iPhone 11 is a good phone. Not a very big difference between 12 except for the OLED screen and a very minor camera improvement which is you cant make a difference. If you are planning for a iPhone and you have budget you definitely can go for this without second thoughts. Now some people are complaining and giving review 0 or so because there is no charger and headphones, but thats been already mentioned so I assume they are illiterate. Its not that Flipkart is removing them duh. Anyways bee...READ MORE', 'Comment': '5'}, {'Product': 'iphone11', 'Name': 'Vikram rapolu', 'Rating': '5', 'CommentHead': 'iPhone 11 is a good phone. Not a very big difference between 12 except for the OLED screen and a very minor camera improvement which is you cant make a difference. If you are planning for a iPhone and you have budget you definitely can go for this without second thoughts. Now some people are complaining and giving review 0 or so because there is no charger and headphones, but thats been already mentioned so I assume they are illiterate. Its not that Flipkart is removing them duh. Anyways bee...READ MORE', 'Comment': '5'}, {'Product': 'iphone11', 'Name': 'siva sankar', 'Rating': '5', 'CommentHead': 'iPhone 11 is a good phone. Not a very big difference between 12 except for the OLED screen and a very minor camera improvement which is you cant make a difference. If you are planning for a iPhone and you have budget you definitely can go for this without second thoughts. Now some people are complaining and giving review 0 or so because there is no charger and headphones, but thats been already mentioned so I assume they are illiterate. Its not that Flipkart is removing them duh. Anyways bee...READ MORE', 'Comment': '5'}, {'Product': 'iphone11', 'Name': 'vikash  Yadav', 'Rating': '5', 'CommentHead': 'iPhone 11 is a good phone. Not a very big difference between 12 except for the OLED screen and a very minor camera improvement which is you cant make a difference. If you are planning for a iPhone and you have budget you definitely can go for this without second thoughts. Now some people are complaining and giving review 0 or so because there is no charger and headphones, but thats been already mentioned so I assume they are illiterate. Its not that Flipkart is removing them duh. Anyways bee...READ MORE', 'Comment': '5'}, {'Product': 'iphone11', 'Name': 'No items', 'Rating': 'No raging', 'CommentHead': 'iPhone 11 is a good phone. Not a very big difference between 12 except for the OLED screen and a very minor camera improvement which is you cant make a difference. If you are planning for a iPhone and you have budget you definitely can go for this without second thoughts. Now some people are complaining and giving review 0 or so because there is no charger and headphones, but thats been already mentioned so I assume they are illiterate. Its not that Flipkart is removing them duh. Anyways bee...READ MORE', 'Comment': '5'}]
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 14:18:14] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 14:18:14] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 14:18:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.8:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 14:21:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 14:21:58] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 14:21:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:rating
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'iphone11', 'Name': 'Parker Chetan', 'Rating': '5', 'CommentHead': 'iPhone 11 is a good phone. Not a very big difference between 12 except for the OLED screen and a very minor camera improvement which is you cant make a difference. If you are planning for a iPhone and you have budget you definitely can go for this without second thoughts. Now some people are complaining and giving review 0 or so because there is no charger and headphones, but thats been already mentioned so I assume they are illiterate. Its not that Flipkart is removing them duh. Anyways bee...READ MORE', 'Comment': '5'}, {'Product': 'iphone11', 'Name': 'Steevan Rattra ', 'Rating': '5', 'CommentHead': 'iPhone 11 is a good phone. Not a very big difference between 12 except for the OLED screen and a very minor camera improvement which is you cant make a difference. If you are planning for a iPhone and you have budget you definitely can go for this without second thoughts. Now some people are complaining and giving review 0 or so because there is no charger and headphones, but thats been already mentioned so I assume they are illiterate. Its not that Flipkart is removing them duh. Anyways bee...READ MORE', 'Comment': '5'}, {'Product': 'iphone11', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'iPhone 11 is a good phone. Not a very big difference between 12 except for the OLED screen and a very minor camera improvement which is you cant make a difference. If you are planning for a iPhone and you have budget you definitely can go for this without second thoughts. Now some people are complaining and giving review 0 or so because there is no charger and headphones, but thats been already mentioned so I assume they are illiterate. Its not that Flipkart is removing them duh. Anyways bee...READ MORE', 'Comment': '5'}, {'Product': 'iphone11', 'Name': 'Abhishek Sachdeva', 'Rating': '5', 'CommentHead': 'iPhone 11 is a good phone. Not a very big difference between 12 except for the OLED screen and a very minor camera improvement which is you cant make a difference. If you are planning for a iPhone and you have budget you definitely can go for this without second thoughts. Now some people are complaining and giving review 0 or so because there is no charger and headphones, but thats been already mentioned so I assume they are illiterate. Its not that Flipkart is removing them duh. Anyways bee...READ MORE', 'Comment': '5'}, {'Product': 'iphone11', 'Name': 'Vishnu Ramakrishnan', 'Rating': '5', 'CommentHead': 'iPhone 11 is a good phone. Not a very big difference between 12 except for the OLED screen and a very minor camera improvement which is you cant make a difference. If you are planning for a iPhone and you have budget you definitely can go for this without second thoughts. Now some people are complaining and giving review 0 or so because there is no charger and headphones, but thats been already mentioned so I assume they are illiterate. Its not that Flipkart is removing them duh. Anyways bee...READ MORE', 'Comment': '5'}, {'Product': 'iphone11', 'Name': 'Manish  Deshlahare', 'Rating': '5', 'CommentHead': 'iPhone 11 is a good phone. Not a very big difference between 12 except for the OLED screen and a very minor camera improvement which is you cant make a difference. If you are planning for a iPhone and you have budget you definitely can go for this without second thoughts. Now some people are complaining and giving review 0 or so because there is no charger and headphones, but thats been already mentioned so I assume they are illiterate. Its not that Flipkart is removing them duh. Anyways bee...READ MORE', 'Comment': '5'}, {'Product': 'iphone11', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'iPhone 11 is a good phone. Not a very big difference between 12 except for the OLED screen and a very minor camera improvement which is you cant make a difference. If you are planning for a iPhone and you have budget you definitely can go for this without second thoughts. Now some people are complaining and giving review 0 or so because there is no charger and headphones, but thats been already mentioned so I assume they are illiterate. Its not that Flipkart is removing them duh. Anyways bee...READ MORE', 'Comment': '5'}, {'Product': 'iphone11', 'Name': 'Vikram rapolu', 'Rating': '5', 'CommentHead': 'iPhone 11 is a good phone. Not a very big difference between 12 except for the OLED screen and a very minor camera improvement which is you cant make a difference. If you are planning for a iPhone and you have budget you definitely can go for this without second thoughts. Now some people are complaining and giving review 0 or so because there is no charger and headphones, but thats been already mentioned so I assume they are illiterate. Its not that Flipkart is removing them duh. Anyways bee...READ MORE', 'Comment': '5'}, {'Product': 'iphone11', 'Name': 'siva sankar', 'Rating': '5', 'CommentHead': 'iPhone 11 is a good phone. Not a very big difference between 12 except for the OLED screen and a very minor camera improvement which is you cant make a difference. If you are planning for a iPhone and you have budget you definitely can go for this without second thoughts. Now some people are complaining and giving review 0 or so because there is no charger and headphones, but thats been already mentioned so I assume they are illiterate. Its not that Flipkart is removing them duh. Anyways bee...READ MORE', 'Comment': '5'}, {'Product': 'iphone11', 'Name': 'vikash  Yadav', 'Rating': '5', 'CommentHead': 'iPhone 11 is a good phone. Not a very big difference between 12 except for the OLED screen and a very minor camera improvement which is you cant make a difference. If you are planning for a iPhone and you have budget you definitely can go for this without second thoughts. Now some people are complaining and giving review 0 or so because there is no charger and headphones, but thats been already mentioned so I assume they are illiterate. Its not that Flipkart is removing them duh. Anyways bee...READ MORE', 'Comment': '5'}, {'Product': 'iphone11', 'Name': 'No items', 'Rating': 'No raging', 'CommentHead': 'iPhone 11 is a good phone. Not a very big difference between 12 except for the OLED screen and a very minor camera improvement which is you cant make a difference. If you are planning for a iPhone and you have budget you definitely can go for this without second thoughts. Now some people are complaining and giving review 0 or so because there is no charger and headphones, but thats been already mentioned so I assume they are illiterate. Its not that Flipkart is removing them duh. Anyways bee...READ MORE', 'Comment': '5'}]
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 14:22:06] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 14:22:06] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 14:22:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.8:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 14:23:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 14:23:35] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 14:23:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:No Comment Heading
+INFO:root:No Comment Heading
+INFO:root:No Comment Heading
+INFO:root:No Comment Heading
+INFO:root:No Comment Heading
+INFO:root:No Comment Heading
+INFO:root:No Comment Heading
+INFO:root:No Comment Heading
+INFO:root:No Comment Heading
+INFO:root:No Comment Heading
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'iphone11', 'Name': 'Parker Chetan', 'Rating': '5', 'CommentHead': 'No Comment Heading', 'Comment': '5'}, {'Product': 'iphone11', 'Name': 'Steevan Rattra ', 'Rating': '5', 'CommentHead': 'No Comment Heading', 'Comment': '5'}, {'Product': 'iphone11', 'Name': 'Vishnu Ramakrishnan', 'Rating': '5', 'CommentHead': 'No Comment Heading', 'Comment': '5'}, {'Product': 'iphone11', 'Name': 'Abhishek Sachdeva', 'Rating': '5', 'CommentHead': 'No Comment Heading', 'Comment': '5'}, {'Product': 'iphone11', 'Name': 'Manish  Deshlahare', 'Rating': '5', 'CommentHead': 'No Comment Heading', 'Comment': '5'}, {'Product': 'iphone11', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'No Comment Heading', 'Comment': '5'}, {'Product': 'iphone11', 'Name': 'Vikram rapolu', 'Rating': '5', 'CommentHead': 'No Comment Heading', 'Comment': '5'}, {'Product': 'iphone11', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'No Comment Heading', 'Comment': '5'}, {'Product': 'iphone11', 'Name': 'siva sankar', 'Rating': '5', 'CommentHead': 'No Comment Heading', 'Comment': '5'}, {'Product': 'iphone11', 'Name': 'Sakshi Bharti', 'Rating': '5', 'CommentHead': 'No Comment Heading', 'Comment': '5'}, {'Product': 'iphone11', 'Name': 'No items', 'Rating': 'No raging', 'CommentHead': 'No Comment Heading', 'Comment': '5'}]
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 14:23:47] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 14:23:47] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 14:23:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.8:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 14:37:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 14:37:59] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 14:37:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:No Comment Heading
+INFO:root:No Comment Heading
+INFO:root:No Comment Heading
+INFO:root:No Comment Heading
+INFO:root:No Comment Heading
+INFO:root:No Comment Heading
+INFO:root:No Comment Heading
+INFO:root:No Comment Heading
+INFO:root:No Comment Heading
+INFO:root:No Comment Heading
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'iphone11', 'Name': 'Parker Chetan', 'Rating': '5', 'CommentHead': 'No Comment Heading', 'Comment': 'iPhone 11 is a good phone. Not a very big difference between 12 except for the OLED screen and a very minor camera improvement which is you cant make a difference. If you are planning for a iPhone and you have budget you definitely can go for this without second thoughts. Now some people are complaining and giving review 0 or so because there is no charger and headphones, but thats been already mentioned so I assume they are illiterate. Its not that Flipkart is removing them duh. Anyways bee...READ MORE'}, {'Product': 'iphone11', 'Name': 'Steevan Rattra ', 'Rating': '5', 'CommentHead': 'No Comment Heading', 'Comment': 'Good CameraREAD MORE'}, {'Product': 'iphone11', 'Name': 'Vishnu Ramakrishnan', 'Rating': '5', 'CommentHead': 'No Comment Heading', 'Comment': 'Camera is awesomeBest battery backupA performer 👌🏻It will be a real value for money if they provide charger and earphone inbox!READ MORE'}, {'Product': 'iphone11', 'Name': 'Abhishek Sachdeva', 'Rating': '5', 'CommentHead': 'No Comment Heading', 'Comment': 'Feeling awesome after getting the delivery of my phone. Dual speakers makes the sound quality very loud. Amazing!!READ MORE'}, {'Product': 'iphone11', 'Name': 'Manish  Deshlahare', 'Rating': '5', 'CommentHead': 'No Comment Heading', 'Comment': 'Very very goodREAD MORE'}, {'Product': 'iphone11', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'No Comment Heading', 'Comment': 'This is amazing at allREAD MORE'}, {'Product': 'iphone11', 'Name': 'Vikram rapolu', 'Rating': '5', 'CommentHead': 'No Comment Heading', 'Comment': 'Perfect Product!!READ MORE'}, {'Product': 'iphone11', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'No Comment Heading', 'Comment': 'Go for iPhone 11 , if confused between iPhone 11 or iPhone 12 mini.Battery Life is enhanced , it worked for complete 2 days without charging it. Explored new features of taking screenshot by clicking on apple logo by Haptic Touch , Portrait mode with stage effect enhanced & slow motion selfie.READ MORE'}, {'Product': 'iphone11', 'Name': 'siva sankar', 'Rating': '5', 'CommentHead': 'No Comment Heading', 'Comment': 'Photos superREAD MORE'}, {'Product': 'iphone11', 'Name': 'Sakshi Bharti', 'Rating': '5', 'CommentHead': 'No Comment Heading', 'Comment': 'Super🔥 and good performance 👌❤️READ MORE'}, {'Product': 'iphone11', 'Name': 'No items', 'Rating': 'No raging', 'CommentHead': 'No Comment Heading', 'Comment': 'Super🔥 and good performance 👌❤️READ MORE'}]
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 14:38:19] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 14:38:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 14:38:19] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.8:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 14:39:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 14:39:24] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 14:39:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:No Comment Heading
+INFO:root:No Comment Heading
+INFO:root:No Comment Heading
+INFO:root:No Comment Heading
+INFO:root:No Comment Heading
+INFO:root:No Comment Heading
+INFO:root:No Comment Heading
+INFO:root:No Comment Heading
+INFO:root:No Comment Heading
+INFO:root:No Comment Heading
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'iphone11', 'Name': 'Parker Chetan', 'Rating': '5', 'CommentHead': 'No Comment Heading', 'Comment': 'iPhone 11 is a good phone. Not a very big difference between 12 except for the OLED screen and a very minor camera improvement which is you cant make a difference. If you are planning for a iPhone and you have budget you definitely can go for this without second thoughts. Now some people are complaining and giving review 0 or so because there is no charger and headphones, but thats been already mentioned so I assume they are illiterate. Its not that Flipkart is removing them duh. Anyways bee...READ MORE'}, {'Product': 'iphone11', 'Name': 'Steevan Rattra ', 'Rating': '5', 'CommentHead': 'No Comment Heading', 'Comment': 'Good CameraREAD MORE'}, {'Product': 'iphone11', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'No Comment Heading', 'Comment': 'This is amazing at allREAD MORE'}, {'Product': 'iphone11', 'Name': 'Abhishek Sachdeva', 'Rating': '5', 'CommentHead': 'No Comment Heading', 'Comment': 'Feeling awesome after getting the delivery of my phone. Dual speakers makes the sound quality very loud. Amazing!!READ MORE'}, {'Product': 'iphone11', 'Name': 'Vishnu Ramakrishnan', 'Rating': '5', 'CommentHead': 'No Comment Heading', 'Comment': 'Camera is awesomeBest battery backupA performer 👌🏻It will be a real value for money if they provide charger and earphone inbox!READ MORE'}, {'Product': 'iphone11', 'Name': 'Manish  Deshlahare', 'Rating': '5', 'CommentHead': 'No Comment Heading', 'Comment': 'Very very goodREAD MORE'}, {'Product': 'iphone11', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'No Comment Heading', 'Comment': 'Go for iPhone 11 , if confused between iPhone 11 or iPhone 12 mini.Battery Life is enhanced , it worked for complete 2 days without charging it. Explored new features of taking screenshot by clicking on apple logo by Haptic Touch , Portrait mode with stage effect enhanced & slow motion selfie.READ MORE'}, {'Product': 'iphone11', 'Name': 'Vikram rapolu', 'Rating': '5', 'CommentHead': 'No Comment Heading', 'Comment': 'Perfect Product!!READ MORE'}, {'Product': 'iphone11', 'Name': 'siva sankar', 'Rating': '5', 'CommentHead': 'No Comment Heading', 'Comment': 'Photos superREAD MORE'}, {'Product': 'iphone11', 'Name': 'vikash  Yadav', 'Rating': '5', 'CommentHead': 'No Comment Heading', 'Comment': 'It’s really awesomeREAD MORE'}, {'Product': 'iphone11', 'Name': 'No items', 'Rating': 'No raging', 'CommentHead': 'No Comment Heading', 'Comment': 'It’s really awesomeREAD MORE'}]
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 14:39:32] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 14:39:32] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 14:39:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.8:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 14:45:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 14:45:53] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 14:45:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'iphone11', 'Name': 'Parker Chetan', 'Rating': '5', 'CommentHead': 'Awesome', 'Comment': 'iPhone 11 is a good phone. Not a very big difference between 12 except for the OLED screen and a very minor camera improvement which is you cant make a difference. If you are planning for a iPhone and you have budget you definitely can go for this without second thoughts. Now some people are complaining and giving review 0 or so because there is no charger and headphones, but thats been already mentioned so I assume they are illiterate. Its not that Flipkart is removing them duh. Anyways bee...READ MORE'}, {'Product': 'iphone11', 'Name': 'Steevan Rattra ', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'Good CameraREAD MORE'}, {'Product': 'iphone11', 'Name': 'Vishnu Ramakrishnan', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Camera is awesomeBest battery backupA performer 👌🏻It will be a real value for money if they provide charger and earphone inbox!READ MORE'}, {'Product': 'iphone11', 'Name': 'Abhishek Sachdeva', 'Rating': '5', 'CommentHead': 'Worth every penny', 'Comment': 'Feeling awesome after getting the delivery of my phone. Dual speakers makes the sound quality very loud. Amazing!!READ MORE'}, {'Product': 'iphone11', 'Name': 'Manish  Deshlahare', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'Very very goodREAD MORE'}, {'Product': 'iphone11', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'This is amazing at allREAD MORE'}, {'Product': 'iphone11', 'Name': 'Vikram rapolu', 'Rating': '5', 'CommentHead': 'Just wow!', 'Comment': 'Perfect Product!!READ MORE'}, {'Product': 'iphone11', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Go for iPhone 11 , if confused between iPhone 11 or iPhone 12 mini.Battery Life is enhanced , it worked for complete 2 days without charging it. Explored new features of taking screenshot by clicking on apple logo by Haptic Touch , Portrait mode with stage effect enhanced & slow motion selfie.READ MORE'}, {'Product': 'iphone11', 'Name': 'siva sankar', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Photos superREAD MORE'}, {'Product': 'iphone11', 'Name': 'Sakshi Bharti', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': 'Super🔥 and good performance 👌❤️READ MORE'}, {'Product': 'iphone11', 'Name': 'No items', 'Rating': 'No raging', 'CommentHead': 'No Comment Heading', 'Comment': 'Super🔥 and good performance 👌❤️READ MORE'}]
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 14:46:00] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 14:46:00] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 14:46:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 14:58:53] "GET /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 14:58:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 14:58:53] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:root:log my final result [{'Product': 'PUMAUPSneakersForMen(White)', 'Name': 'Flipkart Customer', 'Rating': '4', 'CommentHead': 'Nice product', 'Comment': 'Nice productREAD MORE'}, {'Product': 'PUMAUPSneakersForMen(White)', 'Name': 'Rajiv Kumar  Prajapati ', 'Rating': '1', 'CommentHead': 'Useless product', 'Comment': 'Not a  good productREAD MORE'}, {'Product': 'PUMAUPSneakersForMen(White)', 'Name': 'Ravi Sharma', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Very goodREAD MORE'}]
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 15:00:30] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 15:00:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 15:00:31] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 15:01:44] "GET /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 15:01:44] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 15:01:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:list index out of range
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 15:01:51] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 15:01:56] "GET /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 15:01:56] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 15:01:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:list index out of range
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 15:02:45] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 15:02:51] "GET /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 15:02:51] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 15:02:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'MiAseries100cm(40inch)', 'Name': 'Kartikey tiwari', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Awesome tvREAD MORE'}, {'Product': 'MiAseries100cm(40inch)', 'Name': 'Magesh B', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'excellent productREAD MORE'}, {'Product': 'MiAseries100cm(40inch)', 'Name': 'Devendra Kumar', 'Rating': '1', 'CommentHead': 'Horrible', 'Comment': 'good product but the delivery boy was very rude also asking for extra money I can send u recording flipkart why ar u hiring this cheap people very bad experience with delivery boy.READ MORE'}, {'Product': 'MiAseries100cm(40inch)', 'Name': 'JAGDISH  CHANDRA ', 'Rating': '5', 'CommentHead': 'Awesome', 'Comment': 'Excellent product and excellent service 👍👍👍👍👍READ MORE'}, {'Product': 'MiAseries100cm(40inch)', 'Name': 'Sasikanta Nahak', 'Rating': '5', 'CommentHead': 'Super!', 'Comment': 'very good and very nice product....READ MORE'}, {'Product': 'MiAseries100cm(40inch)', 'Name': 'Sunil Kumar', 'Rating': '5', 'CommentHead': 'Just wow!', 'Comment': 'Good product is mi is my favoriteREAD MORE'}, {'Product': 'MiAseries100cm(40inch)', 'Name': 'Jay Shrivastava', 'Rating': '5', 'CommentHead': 'Simply awesome', 'Comment': "Best features at unbelievable price, don't think about any other brand.. Just go for it. Received the product on scheduled date with same day installation.READ MORE"}, {'Product': 'MiAseries100cm(40inch)', 'Name': 'Satyam Prakash', 'Rating': '5', 'CommentHead': 'Worth every penny', 'Comment': 'Best TV range........ money on valuation the great picture quality and sound quality more..📲🎶📺🎶🎧this is range in the best choice mi buying tv. also was nice Go For it....READ MORE'}, {'Product': 'MiAseries100cm(40inch)', 'Name': 'Vinayaka S B', 'Rating': '4', 'CommentHead': 'Wonderful', 'Comment': 'Good Product, can say value for money , but installation guy is not professional...READ MORE'}, {'Product': 'MiAseries100cm(40inch)', 'Name': 'shabab khan', 'Rating': '5', 'CommentHead': 'Mind-blowing purchase', 'Comment': 'First i have to thanks to Flipkart delivered soon  and mi 5A 32inc  tv is superb fantastic mind blowing picture hawsome and connectivity is so fast  very good service and thankq a lot .READ MORE'}, {'Product': 'MiAseries100cm(40inch)', 'Name': 'No items', 'Rating': 'No raging', 'CommentHead': 'No Comment Heading', 'Comment': 'First i have to thanks to Flipkart delivered soon  and mi 5A 32inc  tv is superb fantastic mind blowing picture hawsome and connectivity is so fast  very good service and thankq a lot .READ MORE'}]
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 15:03:19] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 15:03:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 15:03:19] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.7:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 22:52:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 22:52:32] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 22:52:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 22:52:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'iphone11', 'Name': 'Parker Chetan', 'Rating': '5', 'CommentHead': 'Awesome', 'Comment': 'iPhone 11 is a good phone. Not a very big difference between 12 except for the OLED screen and a very minor camera improvement which is you cant make a difference. If you are planning for a iPhone and you have budget you definitely can go for this without second thoughts. Now some people are complaining and giving review 0 or so because there is no charger and headphones, but thats been already mentioned so I assume they are illiterate. Its not that Flipkart is removing them duh. Anyways bee...READ MORE'}, {'Product': 'iphone11', 'Name': 'Steevan Rattra ', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'Good CameraREAD MORE'}, {'Product': 'iphone11', 'Name': 'Vishnu Ramakrishnan', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Camera is awesomeBest battery backupA performer 👌🏻It will be a real value for money if they provide charger and earphone inbox!READ MORE'}, {'Product': 'iphone11', 'Name': 'Abhishek Sachdeva', 'Rating': '5', 'CommentHead': 'Worth every penny', 'Comment': 'Feeling awesome after getting the delivery of my phone. Dual speakers makes the sound quality very loud. Amazing!!READ MORE'}, {'Product': 'iphone11', 'Name': 'Manish  Deshlahare', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'Very very goodREAD MORE'}, {'Product': 'iphone11', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'This is amazing at allREAD MORE'}, {'Product': 'iphone11', 'Name': 'Vikram rapolu', 'Rating': '5', 'CommentHead': 'Just wow!', 'Comment': 'Perfect Product!!READ MORE'}, {'Product': 'iphone11', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Go for iPhone 11 , if confused between iPhone 11 or iPhone 12 mini.Battery Life is enhanced , it worked for complete 2 days without charging it. Explored new features of taking screenshot by clicking on apple logo by Haptic Touch , Portrait mode with stage effect enhanced & slow motion selfie.READ MORE'}, {'Product': 'iphone11', 'Name': 'siva sankar', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Photos superREAD MORE'}, {'Product': 'iphone11', 'Name': 'Sakshi Bharti', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': 'Super🔥 and good performance 👌❤️READ MORE'}, {'Product': 'iphone11', 'Name': 'No items', 'Rating': 'No raging', 'CommentHead': 'No Comment Heading', 'Comment': 'Super🔥 and good performance 👌❤️READ MORE'}]
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 22:52:59] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 22:52:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 22:52:59] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 22:58:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 22:58:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 22:58:31] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 22:58:31] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 22:58:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 22:58:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 22:58:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 22:58:36] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 22:59:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 23:00:00] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 23:00:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:No Comment Heading
+INFO:root:name
+INFO:root:No Comment Heading
+INFO:root:name
+INFO:root:No Comment Heading
+INFO:root:log my final result [{'Product': 'Cloths', 'Name': 'No items', 'Rating': '5Perfect 🤩🤩READ MORE', 'CommentHead': 'No Comment Heading', 'Comment': 'Shikha Mandal4 months ago17533PermalinkReport Abuse'}, {'Product': 'Cloths', 'Name': 'No items', 'Rating': "5It's goodREAD MORE", 'CommentHead': 'No Comment Heading', 'Comment': 'GOLU Kumar SINGHJul, 202232284PermalinkReport Abuse'}, {'Product': 'Cloths', 'Name': 'No items', 'Rating': '3goodREAD MORE', 'CommentHead': 'No Comment Heading', 'Comment': 'Vipul KumarJul, 202236698PermalinkReport Abuse'}]
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 23:00:15] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 23:00:16] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [18/Sep/2023 23:00:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
